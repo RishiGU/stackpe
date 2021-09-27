@@ -58,6 +58,7 @@ function Top() {
                         setstage2(true)
 
                     }).catch((error) => {
+                        console.log(error);
                         toast.error("SMS not sent")
                     });
             }else{
