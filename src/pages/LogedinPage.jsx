@@ -17,7 +17,7 @@ function LogedinPage() {
     }, [])
     return (
         <div>
-            user is logedin here 😎😎
+            user is loggedin here 😎😎
         </div>
     )
 }
