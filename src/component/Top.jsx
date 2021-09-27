@@ -194,7 +194,7 @@ function Top() {
                                         type="submit"
                                         className="btn btn-primary nav_btn"
                                         onClick={stage2 ? authenticationOnStage2 : authenticationOnStage1}>
-                                        {stage2 ? "Veryfy" : "Get invite"}
+                                        {stage2 ? "Verify" : "Get invite"}
                                     </button>
                                 </form>
                             </div>
